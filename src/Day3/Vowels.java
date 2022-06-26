@@ -6,18 +6,20 @@ import java.util.Scanner;
 public class Vowels {
 
     String checkV_C(String chr){
-        String print = "";
-                String [] arr = {"a","b","c","d","e","f","g","i","h","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
-        for (String s : arr) {
-            if (Objects.equals(chr, "a") || Objects.equals(chr, "e") || Objects.equals(chr, "i") || Objects.equals(chr, "o") || Objects.equals(chr, "u")) {
-                print = ("It is Vowel");
-            } else if (!Objects.equals(chr, s)) {
-                print = ("error");
-            } else {
-                print = ("Its Consonent");
+        StringBuilder print = new StringBuilder();
+                String [] arr1 = {"a","e","i","o","u"};
+                String [] arr = {"b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"};
+        for (String s : arr1) {
+            if (Objects.equals(chr, s)) {
+                print.append("It's a Vowel");
             }
         }
-        return print;
+        for (String s : arr) {
+            if (Objects.equals(chr, s)) {
+                print.append("Its Consonant");
+            }
+        }
+            return print.toString();
     }
 
     public static void main(String[] args) {
