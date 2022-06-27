@@ -2,15 +2,12 @@ package Day3;
 
 import java.util.Scanner;
 public class Student {
-
      static void studentDetail(String a, int b, int c){
 
          System.out.println("Name: "+a);
         System.out.println("Roll no: "+b);
          System.out.println("Marks: "+c);
     }
-
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Roll no");
