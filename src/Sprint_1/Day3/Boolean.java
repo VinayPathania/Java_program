@@ -1,4 +1,4 @@
-package Day3;
+package Sprint_1.Day3;
 
 import java.util.Scanner;
 

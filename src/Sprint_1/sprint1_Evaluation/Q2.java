@@ -1,4 +1,4 @@
-package sprint1_Evaluation;
+package Sprint_1.sprint1_Evaluation;
 
 import java.util.Scanner;
 

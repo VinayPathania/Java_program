@@ -1,4 +1,4 @@
-package sprint1_Evaluation;
+package Sprint_1.sprint1_Evaluation;
 
 public class Q4 {
     public static void main(String[] args) {

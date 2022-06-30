@@ -1,4 +1,4 @@
-package sprint1_Evaluation;
+package Sprint_1.sprint1_Evaluation;
 class lion{
     String name;
     boolean isHungry;
