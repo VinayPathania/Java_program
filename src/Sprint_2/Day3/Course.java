@@ -12,7 +12,7 @@ public class Course {
         System.out.println("Course Id: "+ courseId);
         System.out.println("Course Name: "+ courseName);
         System.out.println("Course Fee: "+ courseFee);
-//        return null;
+
     }
 
     public  String authenticate(String username, String password){
