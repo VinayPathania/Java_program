@@ -48,7 +48,7 @@ public class Q3 {
             System.out.println("Total amount:"+ totalAmount);
             System.out.println("Available ticket after booking:"+ leftTickets);
 
-            noOfTickets = noOfTickets-tickets;
+
         }
     }
 }
