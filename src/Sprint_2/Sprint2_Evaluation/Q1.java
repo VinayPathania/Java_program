@@ -6,7 +6,6 @@ class Student{
     String studentName;
     long marks;
 
-
     public Student() {
         System.out.println("Student Roll Number: "+rollNumber);
         System.out.println("Student Name: "+studentName);
