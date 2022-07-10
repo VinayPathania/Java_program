@@ -1,4 +1,4 @@
-package Sprint_3;
+package Sprint_3.Day1;
 
 abstract class Parent{
     public void method1() {
