@@ -22,13 +22,13 @@ class Dog extends Animal{
 class Cat extends Animal{
     @Override
     public void makeNoise(){
-        System.out.println("Meaw...");
+        System.out.println("Meow...");
     }
 }
 class Tiger extends Animal{
     @Override
     public void makeNoise(){
-        System.out.println("Raoring...");
+        System.out.println("Roaring...");
     }
 }
 
